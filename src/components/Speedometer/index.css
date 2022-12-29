@@ -1,0 +1,73 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #07080c;
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: 'Roboto';
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 36px;
+  }
+}
+
+.speedometer {
+  width: 300px;
+  height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .speedometer {
+    width: 500px;
+    height: 200px;
+  }
+}
+
+.text {
+  font-size: 26px;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.paragraph {
+  font-family: 'Roboto';
+  font-weight: 300;
+  color: #94a3b8;
+  font-size: 14px;
+}
+
+.button {
+  font-size: 12px;
+  font-weight: 300;
+  font-family: 'Roboto';
+  color: #ffffff;
+  background-color: #0b69ff;
+  border-radius: 6px;
+  border-width: 0px;
+  padding: 4px;
+  margin-right: 14px;
+}
+
+.button-1 {
+  font-size: 12px;
+  font-weight: 300;
+  font-family: 'Roboto';
+  color: #94a3b8;
+  background-color: transparent;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #94a3b8;
+  border-radius: 6px;
+  padding: 4px;
+}
